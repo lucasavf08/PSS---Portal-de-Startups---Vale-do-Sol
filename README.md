@@ -47,8 +47,8 @@ DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_DATABASE=startup_db
-DB_USERNAME=seu_usuario
-DB_PASSWORD=sua_senha
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
 ```
 
 ### 4. Gerar a Chave da Aplicação

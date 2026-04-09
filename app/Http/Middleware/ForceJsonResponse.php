@@ -9,9 +9,7 @@ class ForceJsonResponse
 {
     public function handle(Request $request, Closure $next)
     {
-        // força todas as requisições a aceitar JSON
         $request->headers->set('Accept', 'application/json');
-
         return $next($request);
     }
 }

@@ -3,7 +3,7 @@
 
 Sistema web funcional para o cadastro e gestão de startups, focado na integridade das informações e na atualização dinâmica da interface conforme os requisitos do desafio técnico.
 
-## 📋 Requisitos Técnicos Atendidos
+## Requisitos Técnicos Atendidos
 - **Backend:** API REST desenvolvida em PHP utilizando o framework Laravel 11.
 - **Frontend:** Interface responsiva construída com HTML5 semântico e estilizada com Tailwind CSS.
 - **Banco de Dados:** Persistência de dados em PostgreSQL com controle de versão via Migrations.
@@ -12,7 +12,7 @@ Sistema web funcional para o cadastro e gestão de startups, focado na integrida
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Laravel 11**: Framework PHP para o desenvolvimento da API.
 - **PostgreSQL**: Sistema de gerenciamento de banco de dados relacional.
 - **Tailwind CSS**: Framework CSS utilitário para design responsivo.
@@ -20,7 +20,7 @@ Sistema web funcional para o cadastro e gestão de startups, focado na integrida
 
 ---
 
-## 🔧 Instalação e Configuração Local
+## Instalação e Configuração Local
 
 Siga as instruções abaixo para preparar o ambiente de execução:
 
@@ -70,12 +70,12 @@ Acesse a aplicação através do endereço: [http://127.0.0.1:8000/startups](htt
 
 ---
 
-## 🚀 Funcionalidades e Uso
+## Funcionalidades e Uso
 1. **Cadastro**: O usuário preenche os campos Nome Fantasia, Setor e CNPJ no formulário lateral.
 2. **Validação em Tempo Real**: O backend valida se todos os campos estão presentes e se o CNPJ já não consta na base de dados.
 3. **Listagem Dinâmica**: Após o cadastro bem-sucedido, a lista de startups é atualizada imediatamente via JavaScript, sem a necessidade de recarregar a página (F5).
 4. **Responsividade**: O layout se adapta automaticamente para visualização em dispositivos móveis ou desktops.
 
 ---
-Desenvolvido por **[Seu Nome]** - Abril de 2026
+Desenvolvido por Lucas Alves Verissimo da Fonseca - Abril de 2026
 ```
